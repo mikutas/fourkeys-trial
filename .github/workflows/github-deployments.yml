@@ -16,8 +16,8 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         env: release
 
-    # - name: do my deploy
-    #   run: echo hoge
+    - name: simulate failed deploy
+      run: exit 1
 
     - name: update deployment status
       uses: bobheadxi/deployments@master
