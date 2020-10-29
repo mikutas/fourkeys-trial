@@ -14,6 +14,7 @@ https://github.com/GoogleCloudPlatform/fourkeys
   - Issueに原因コミットを記載することで測定可能になる
   - `root cause: コミットID`の形で記載する
 - サービス復元時間 - 組織が本番環境での障害から回復するのにかかる時間
+  - https://github.com/GoogleCloudPlatform/fourkeys/blame/e72fb57a796feab561e1a58b1d206731d869eccc/setup/INSTALL.md#L193
   - 障害の発生時刻は原因コミットを含むdeploymentが作成された時刻になる
   - 障害の解消時刻はIssueが閉じられた時刻になる
 
