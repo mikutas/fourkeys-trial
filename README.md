@@ -23,5 +23,3 @@ GitHubリポジトリと連携する場合、上2つの指標を測定するに�
 https://developer.github.com/webhooks/event-payloads/#deployment
 
 https://developer.github.com/v3/repos/deployments/
-
-hoge
