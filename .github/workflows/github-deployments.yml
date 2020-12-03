@@ -1,8 +1,8 @@
 # https://github.com/bobheadxi/deployments
 on:
   push:
-    branches:
-    - main
+    tags:
+    - "*_PR#*"
 
 jobs:
   deploy:
