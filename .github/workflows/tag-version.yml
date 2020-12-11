@@ -18,5 +18,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
           REPO: ${{ github.repository }}
-          COMMIT: ${{ github.event.pull_request.head.sha }}
+          COMMIT: ${{ github.event.pull_request.merge_commit_sha }}
         run: ./.github/scripts/add-tag.sh
